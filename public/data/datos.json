@@ -2,8 +2,8 @@
   "event": {
     "title": "Ateneo TIC 2026",
     "edition": "Edición 2026",
-    "cohort": "4.º Año — Profesorado en TIC",
-    "organizer": "Alumnos de 4.º año del Profesorado de Educación Secundaria en TIC",
+    "cohort": "4º Año — Profesorado en TIC",
+    "organizer": "Alumnos de 4º año del Profesorado de Educación Secundaria en TIC",
     "institution": "IES N.º 9 «Juana Azurduy»",
     "locationCity": "San Pedro de Jujuy, Jujuy, Argentina",
     "locationVenue": "Sede Central IES N.º 9 «Juana Azurduy»",
@@ -16,11 +16,11 @@
       "lat": -24.2452793,
       "lng": -64.8829498
     },
-    "whatsappShareMessage": "¡Te invito al Ateneo TIC! Viernes 4 de diciembre de 2026, desde las 13:15 hs, en el IES N.º 9 «Juana Azurduy», San Pedro de Jujuy. Conocé la carrera: https://sebasrs79.github.io/tic-ies9/"
+    "whatsappShareMessage": "¡Te invitamos al Ateneo TIC! Viernes 4 de diciembre de 2026, desde las 13:15 hs, en el IES N.º 9 «Juana Azurduy», San Pedro de Jujuy. Conocé la carrera: https://sebasrs79.github.io/tic-ies9/"
   },
   "stats": [
     {
-      "value": "4.°",
+      "value": "4°",
       "label": "Año Organizador",
       "detail": "Profesorado TIC"
     },
@@ -165,7 +165,7 @@
   ],
   "metadata": {
     "siteUrl": "https://sebasrs79.github.io/ateneo-tic-2026",
-    "ogTitle": "Ateneo TIC 2026 · Te invitan los alumnos de 4.º año — IES N.º 9 Juana Azurduy",
+    "ogTitle": "Ateneo TIC 2026 · Te invitan los alumnos de 4º año — IES Nº 9 Juana Azurduy",
     "ogDescription": "Viernes 4 de diciembre de 2026 desde las 13:15 hs en San Pedro de Jujuy. Proyectos en vivo, tecnología, educación y muestra de la carrera TIC.",
     "ogImage": "/assets/iconotic.png",
     "twitterCard": "summary_large_image",
