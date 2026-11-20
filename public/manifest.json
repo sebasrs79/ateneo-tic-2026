@@ -1,0 +1,16 @@
+{
+  "name": "Ateneo TIC 2026 — IES N.º 9 Juana Azurduy",
+  "short_name": "Ateneo TIC",
+  "description": "Invitación Oficial al Ateneo TIC 2026. Organizan los alumnos de 4.º año del Profesorado en TIC.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#071325",
+  "theme_color": "#071325",
+  "icons": [
+    {
+      "src": "/assets/iconotic.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

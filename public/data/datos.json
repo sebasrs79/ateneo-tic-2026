@@ -1,0 +1,174 @@
+{
+  "event": {
+    "title": "Ateneo TIC 2026",
+    "edition": "Edición 2026",
+    "cohort": "4.º Año — Profesorado en TIC",
+    "organizer": "Alumnos de 4.º año del Profesorado de Educación Secundaria en TIC",
+    "institution": "IES N.º 9 «Juana Azurduy»",
+    "locationCity": "San Pedro de Jujuy, Jujuy, Argentina",
+    "locationVenue": "Sede Central IES N.º 9 «Juana Azurduy»",
+    "dateIso": "2026-12-04T13:15:00-03:00",
+    "dateDisplay": "Viernes 4 de Diciembre de 2026",
+    "timeDisplay": "Desde las 13:15 hs",
+    "landingUrl": "https://sebasrs79.github.io/tic-ies9/",
+    "mapsUrl": "https://maps.app.goo.gl/TCKmpJyM82p8ZZG89",
+    "coordinates": {
+      "lat": -24.2452793,
+      "lng": -64.8829498
+    },
+    "whatsappShareMessage": "¡Te invito al Ateneo TIC! Viernes 4 de diciembre de 2026, desde las 13:15 hs, en el IES N.º 9 «Juana Azurduy», San Pedro de Jujuy. Conocé la carrera: https://sebasrs79.github.io/tic-ies9/"
+  },
+  "stats": [
+    {
+      "value": "4.°",
+      "label": "Año Organizador",
+      "detail": "Profesorado TIC"
+    },
+    {
+      "value": "+15",
+      "label": "Proyectos en Vivo",
+      "detail": "Software y Robótica"
+    },
+    {
+      "value": "100%",
+      "label": "Educación Digital",
+      "detail": "Innovación en el aula"
+    },
+    {
+      "value": "2026",
+      "label": "Gran Cierre Anual",
+      "detail": "Comunidad IES N.º 9"
+    }
+  ],
+  "pillars": [
+    {
+      "id": "exposiciones",
+      "number": "01",
+      "title": "EXPOSICIONES",
+      "subtitle": "Proyectos Finales y Muestra Pedagógica",
+      "description": "Los alumnos de 4.º año presentan sus desarrollos tecnológicos, integrando programación, metodologías activas y aplicaciones educativas reales para el nivel secundario.",
+      "tags": ["Software Educativo", "Transposición Didáctica", "TIC en Acción"]
+    },
+    {
+      "id": "tecnologia",
+      "number": "02",
+      "title": "TECNOLOGÍA",
+      "subtitle": "Robótica, Web y Laboratorios Vivos",
+      "description": "Stands interactivos con prototipos físicos, automatización, IA en educación y experiencias prácticas que los asistentes podrán probar en tiempo real.",
+      "tags": ["Robótica & IoT", "Inteligencia Artificial", "Interacción 3D"]
+    },
+    {
+      "id": "carrera",
+      "number": "03",
+      "title": "LA CARRERA",
+      "subtitle": "Profesorado en Educación Secundaria en TIC",
+      "description": "Conocé el plan de estudios, el perfil docente innovador y las oportunidades de formación que ofrece el IES N.º 9 en San Pedro de Jujuy para transformar la educación.",
+      "tags": ["Formación Docente", "IES N.º 9", "Futuro Digital"]
+    }
+  ],
+  "schedule": [
+    {
+      "id": "h-1315",
+      "time": "13:15 hs",
+      "timeIso": "2026-12-04T13:15:00-03:00",
+      "title": "Acreditación y Bienvenida Tecnológica",
+      "description": "Recepción de invitados, docentes y comunidad educativa. Apertura interactiva en el hall central.",
+      "icon": "KeyRound",
+      "badge": "Apertura"
+    },
+    {
+      "id": "h-1345",
+      "time": "13:45 hs",
+      "timeIso": "2026-12-04T13:45:00-03:00",
+      "title": "Presentación de Proyectos TIC y Educación",
+      "description": "Exposiciones orales y demostraciones en pantalla gigante de las propuestas pedagógicas creadas por 4.º año.",
+      "icon": "Presentation",
+      "badge": "Exposiciones"
+    },
+    {
+      "id": "h-1430",
+      "time": "14:30 hs",
+      "timeIso": "2026-12-04T14:30:00-03:00",
+      "title": "Muestra Interactiva de Software y Robótica",
+      "description": "Recorrido dinámico por los stands interactivos, estaciones de simulación y robótica aplicada a las escuelas.",
+      "icon": "Cpu",
+      "badge": "Interactivo"
+    },
+    {
+      "id": "h-1515",
+      "time": "15:15 hs",
+      "timeIso": "2026-12-04T15:15:00-03:00",
+      "title": "Mesa Panel: Desafíos y Futuro de la Educación Digital",
+      "description": "Espacio de diálogo abierto entre estudiantes del profesorado, profesores orientadores y autoridades institucionales.",
+      "icon": "MessageSquareShare",
+      "badge": "Mesa Panel"
+    },
+    {
+      "id": "h-1600",
+      "time": "16:00 hs",
+      "timeIso": "2026-12-04T16:00:00-03:00",
+      "title": "Cierre Institucional, Reconocimientos y Brindis",
+      "description": "Entrega de certificados a los expositores, balance final de la carrera y celebración comunitaria.",
+      "icon": "Sparkles",
+      "badge": "Cierre"
+    }
+  ],
+  "carousel": [
+    {
+      "id": "alumnos-lab",
+      "title": "Programación y Software Educativo",
+      "subtitle": "4.º Año TIC en el Laboratorio",
+      "description": "Desarrollo de soluciones pedagógicas interactivas para escuelas secundarias.",
+      "image": "/assets/alumnos/alumno-1.webp",
+      "tag": "DESARROLLO"
+    },
+    {
+      "id": "alumnos-robotica",
+      "title": "Robótica y Hardware Libre",
+      "subtitle": "Automatización y Creatividad",
+      "description": "Integración de placas de desarrollo y sensores para proyectos interdisciplinarios.",
+      "image": "/assets/alumnos/alumno-2.webp",
+      "tag": "ROBÓTICA"
+    },
+    {
+      "id": "alumnos-equipo",
+      "title": "Trabajo Colaborativo",
+      "subtitle": "Sinergia en el Aula",
+      "description": "Construcción colectiva del saber y diseño curricular con tecnología moderna.",
+      "image": "/assets/alumnos/alumno-3.webp",
+      "tag": "COLABORACIÓN"
+    },
+    {
+      "id": "alumnos-presentacion",
+      "title": "Divulgación y Muestra Pedagógica",
+      "subtitle": "Compartir el Conocimiento",
+      "description": "Presentaciones orales y dinámicas participativas con la comunidad.",
+      "image": "/assets/alumnos/alumno-4.webp",
+      "tag": "DIVULGACIÓN"
+    },
+    {
+      "id": "alumnos-innovacion",
+      "title": "Inteligencia Artificial y Nuevos Medios",
+      "subtitle": "Pensamiento Crítico Digital",
+      "description": "Exploración de herramientas emergentes aplicadas a la enseñanza y el aprendizaje.",
+      "image": "/assets/alumnos/alumno-5.webp",
+      "tag": "IA & MEDIOS"
+    },
+    {
+      "id": "alumnos-comunidad",
+      "title": "Compromiso Comunitario IES N.º 9",
+      "subtitle": "San Pedro de Jujuy",
+      "description": "Futuros profesores de TIC listos para transformar las aulas de Jujuy.",
+      "image": "/assets/alumnos/alumno-6.webp",
+      "tag": "COMUNIDAD"
+    }
+  ],
+  "metadata": {
+    "siteUrl": "https://sebasrs79.github.io/ateneo-tic-2026",
+    "ogTitle": "Ateneo TIC 2026 · Te invitan los alumnos de 4.º año — IES N.º 9 Juana Azurduy",
+    "ogDescription": "Viernes 4 de diciembre de 2026 desde las 13:15 hs en San Pedro de Jujuy. Proyectos en vivo, tecnología, educación y muestra de la carrera TIC.",
+    "ogImage": "/assets/iconotic.png",
+    "twitterCard": "summary_large_image",
+    "themeColor": "#071325"
+  }
+}
