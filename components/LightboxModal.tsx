@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Sparkles, Share2, Tag, Calendar } from 'lucide-react';
 import { CarouselItem } from '@/types/event';
+import { asset } from '@/lib/asset';
 
 interface LightboxModalProps {
   selectedItem: CarouselItem | null;
@@ -61,7 +62,7 @@ export default function LightboxModal({ selectedItem, onClose }: LightboxModalPr
           {/* High-res Image Preview */}
           <div className="relative aspect-[16/10] w-full rounded-2xl overflow-hidden bg-black mb-5 border border-sky/30">
             <Image
-              src={selectedItem.image}
+              src={asset(selectedItem.image)}
               alt={selectedItem.title}
               fill
               sizes="(max-width: 768px) 100vw, 800px"

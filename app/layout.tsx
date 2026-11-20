@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from 'next';
+import { asset } from '@/lib/asset';
 import './globals.css';
 
 export const viewport: Viewport = {
@@ -27,9 +28,9 @@ export const metadata: Metadata = {
     'Jujuy Educación',
   ],
   icons: {
-    icon: '/assets/iconotic.png',
-    shortcut: '/assets/iconotic.png',
-    apple: '/assets/iconotic.png',
+    icon: asset('/assets/iconotic.png'),
+    shortcut: asset('/assets/iconotic.png'),
+    apple: asset('/assets/iconotic.png'),
   },
   openGraph: {
     type: 'website',
@@ -41,7 +42,7 @@ export const metadata: Metadata = {
       'Viernes 4 de diciembre de 2026 desde las 13:15 hs en San Pedro de Jujuy. Proyectos en vivo, tecnología, educación y muestra de la carrera TIC.',
     images: [
       {
-        url: '/assets/iconotic.png',
+        url: asset('/assets/iconotic.png'),
         width: 512,
         height: 512,
         alt: 'Logo Oficial Ateneo TIC 2026',
@@ -53,9 +54,9 @@ export const metadata: Metadata = {
     title: 'Ateneo TIC 2026 · Te invitan los alumnos de 4.º año — IES N.º 9 Juana Azurduy',
     description:
       'Viernes 4 de diciembre de 2026 desde las 13:15 hs en San Pedro de Jujuy. Proyectos en vivo, tecnología, educación y muestra de la carrera TIC.',
-    images: ['/assets/iconotic.png'],
+    images: [asset('/assets/iconotic.png')],
   },
-  manifest: '/manifest.json',
+  manifest: asset('/manifest.json'),
 };
 
 export default function RootLayout({

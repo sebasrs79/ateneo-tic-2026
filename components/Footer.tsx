@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import { ExternalLink, Heart, Sparkles, MapPin, Calendar } from 'lucide-react';
 import datos from '@/public/data/datos.json';
+import { asset } from '@/lib/asset';
 
 export default function Footer() {
   const { event } = datos;
@@ -19,7 +20,7 @@ export default function Footer() {
             <div className="flex items-center gap-3">
               <div className="relative w-12 h-12">
                 <Image
-                  src="/assets/logo-ies9.webp"
+                  src={asset("/assets/logo-ies9.webp")}
                   alt="Escudo Oficial IES N.º 9 Juana Azurduy"
                   fill
                   sizes="48px"
@@ -29,7 +30,7 @@ export default function Footer() {
               <div className="h-8 w-px bg-white/20" />
               <div className="relative h-8 w-28">
                 <Image
-                  src="/assets/logo-tic.webp"
+                  src={asset("/assets/logo-tic.webp")}
                   alt="Logo Profesorado en TIC"
                   fill
                   sizes="112px"

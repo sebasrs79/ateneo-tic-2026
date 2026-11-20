@@ -13,6 +13,7 @@ import {
   Compass,
 } from 'lucide-react';
 import datos from '@/public/data/datos.json';
+import { asset } from '@/lib/asset';
 
 export default function LocationSection() {
   const { event } = datos;
@@ -93,7 +94,7 @@ export default function LocationSection() {
         {/* mapa-escuela.jpg container */}
         <div className="relative aspect-[21/9] sm:aspect-[16/7] w-full rounded-2xl overflow-hidden bg-[#000000] border border-sky/20">
           <Image
-            src="/assets/mapa-escuela.jpg"
+            src={asset("/assets/mapa-escuela.jpg")}
             alt="Plano Ilustrado Oficial de la Escuela e IES N.º 9 Juana Azurduy"
             fill
             sizes="(max-width: 1024px) 100vw, 1152px"

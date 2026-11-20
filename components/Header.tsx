@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { Menu, X, CalendarPlus, ExternalLink } from 'lucide-react';
 import datos from '@/public/data/datos.json';
+import { asset } from '@/lib/asset';
 
 const NAV_LINKS = [
   { href: '#inicio', label: 'Inicio' },
@@ -44,7 +45,7 @@ export default function Header() {
           >
             <div className="relative w-9 h-9 sm:w-11 sm:h-11 transition-transform group-hover:scale-105">
               <Image
-                src="/assets/logo-ies9.webp"
+                src={asset("/assets/logo-ies9.webp")}
                 alt="Escudo Oficial IES N.º 9 Juana Azurduy"
                 fill
                 sizes="(max-width: 640px) 36px, 44px"
@@ -55,7 +56,7 @@ export default function Header() {
             <div className="h-6 w-px bg-white/20" />
             <div className="relative h-7 sm:h-8 w-24 sm:w-28 transition-transform group-hover:scale-105">
               <Image
-                src="/assets/logo-tic.webp"
+                src={asset("/assets/logo-tic.webp")}
                 alt="Logo Profesorado en TIC"
                 fill
                 sizes="(max-width: 640px) 96px, 112px"

@@ -6,6 +6,12 @@ const basePath = process.env.NEXT_PUBLIC_BASE_PATH || detectedBasePath;
 
 const nextConfig = {
   output: 'export',
+  // Expone el basePath al código (cliente y servidor) para que lib/asset.ts
+  // pueda anteponerlo a las rutas de /public. Sin esto, NEXT_PUBLIC_BASE_PATH
+  // estaría vacío en el build de GitHub Actions aunque basePath sí se calcule.
+  env: {
+    NEXT_PUBLIC_BASE_PATH: basePath,
+  },
   images: {
     unoptimized: true,
   },

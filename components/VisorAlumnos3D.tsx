@@ -4,6 +4,7 @@ import React, { useRef } from 'react';
 import Image from 'next/image';
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
 import { Sparkles, Terminal, Cpu } from 'lucide-react';
+import { asset } from '@/lib/asset';
 
 export default function VisorAlumnos3D() {
   const cardRef = useRef<HTMLDivElement>(null);
@@ -80,7 +81,7 @@ export default function VisorAlumnos3D() {
         {/* Image Frame with Laser Scanner and Holographic overlay */}
         <div className="relative aspect-[16/10] sm:aspect-[16/9] w-full rounded-xl sm:rounded-2xl overflow-hidden bg-black/90">
           <Image
-            src="/assets/portada-alumnos-tic.webp"
+            src={asset("/assets/portada-alumnos-tic.webp")}
             alt="Alumnos de 4.º año del Profesorado de Educación Secundaria en TIC — IES N.º 9 Juana Azurduy"
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 896px"
@@ -166,7 +167,7 @@ export default function VisorAlumnos3D() {
         <div className="relative w-28 h-28 sm:w-36 sm:h-36 md:w-44 md:h-44 group cursor-pointer">
           <div className="absolute inset-0 bg-sky/30 rounded-full blur-xl group-hover:bg-red/40 transition-colors duration-300" />
           <Image
-            src="/assets/robot-portada.webp"
+            src={asset("/assets/robot-portada.webp")}
             alt="Mascota Robótica 3D del Ateneo TIC 2026"
             fill
             sizes="(max-width: 640px) 112px, (max-width: 768px) 144px, 176px"

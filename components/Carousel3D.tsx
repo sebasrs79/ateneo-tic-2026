@@ -14,6 +14,7 @@ import {
 import datos from '@/public/data/datos.json';
 import { CarouselItem } from '@/types/event';
 import LightboxModal from './LightboxModal';
+import { asset } from '@/lib/asset';
 
 export default function Carousel3D() {
   const items: CarouselItem[] = datos.carousel;
@@ -199,7 +200,7 @@ export default function Carousel3D() {
                 {/* Image */}
                 <div className="relative w-full h-full">
                   <Image
-                    src={item.image}
+                    src={asset(item.image)}
                     alt={item.title}
                     fill
                     sizes="(max-width: 640px) 200px, 270px"

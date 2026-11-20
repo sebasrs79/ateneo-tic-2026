@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { Share2, ExternalLink, Copy, Check, QrCode, Sparkles } from 'lucide-react';
 import datos from '@/public/data/datos.json';
 import { getWhatsAppShareUrl } from '@/lib/calendar';
+import { asset } from '@/lib/asset';
 
 export default function QrSection() {
   const { event } = datos;
@@ -41,7 +42,7 @@ export default function QrSection() {
           {/* QR Image */}
           <div className="relative w-full h-full">
             <Image
-              src="/assets/qr-landing.png"
+              src={asset("/assets/qr-landing.png")}
               alt="Código QR Oficial de la Carrera TIC — IES N.º 9 Juana Azurduy"
               fill
               sizes="(max-width: 640px) 208px, 256px"
